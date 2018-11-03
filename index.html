@@ -1,13 +1,26 @@
 <!doctype html>
 <html>
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Game of Life</title>
 </head>
 
 <body>
 
-  <a href="http://github.com/sylvaingi/d3-life">Adapted from sylvaingi's project on GitHub</a>
+  <div class="container">
+    <div class="row">
+      <div class="three columns">
+        <h1>Game of Life</h1>
+        <a href="http://github.com/sylvaingi/d3-life">Adapted from sylvaingi's project on GitHub</a>
+        <h2>Settings</h2>
+        <input id="enterColorChoice" type="color" value="periwinkle">
+        <h3>PUSH TO START</h3>
+        <button type="button" id="start">START GAME</button>
+      </div>
+      <div class="nine columns" id="game"></div>
+    </div>  
+  </div>
 
   <script type="text/javascript" src="js/Cell.js"></script>
   <script type="text/javascript" src="js/CellGrid.js"></script>

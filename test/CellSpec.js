@@ -20,7 +20,7 @@ describe("Cell", function() {
         expect(cell).toBeDead();
     });
 
-    it("should be dead", function() {
+    it("should be alive", function() {
         var cell = new Cell(true);
         expect(cell).toBeAlive();
     });
