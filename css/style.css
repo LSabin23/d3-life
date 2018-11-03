@@ -1,0 +1,8 @@
+html, body {
+  margin: 0;
+  overflow: hidden;
+}
+
+circle {
+  fill: #1f77b4;
+}
